@@ -1,0 +1,28 @@
+{
+  "name": "UT-GEST | Gestión y Seguimiento Académico",
+  "short_name": "UT-GEST",
+  "description": "Plataforma demostrativa para la gestión, seguimiento de indicadores y evidencias académicas.",
+  "lang": "es-MX",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "id": "./index.html",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#8b2cff",
+  "background_color": "#07070a",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

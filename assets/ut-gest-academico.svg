@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07070a"/>
+      <stop offset="0.55" stop-color="#16081f"/>
+      <stop offset="1" stop-color="#2a0b3b"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b2cff"/>
+      <stop offset="1" stop-color="#d51cff"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000" flood-opacity="0.45"/></filter>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg)"/>
+  <circle cx="1050" cy="100" r="220" fill="#8b2cff" opacity="0.12"/>
+  <circle cx="180" cy="600" r="220" fill="#8b2cff" opacity="0.09"/>
+
+  <rect x="70" y="60" width="1060" height="580" rx="34" fill="#0c0c11" stroke="#8b2cff" stroke-opacity="0.35" filter="url(#shadow)"/>
+  <rect x="70" y="60" width="1060" height="82" rx="34" fill="#111116"/>
+  <rect x="70" y="108" width="1060" height="34" fill="#111116"/>
+
+  <rect x="100" y="83" width="42" height="42" rx="11" fill="url(#purple)"/>
+  <text x="121" y="112" font-family="Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle" fill="#fff">UT</text>
+  <text x="158" y="101" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#fff">UT-GEST</text>
+  <text x="158" y="123" font-family="Arial, sans-serif" font-size="10" fill="#bfaeca">Gestión y Seguimiento Académico</text>
+
+  <rect x="400" y="86" width="85" height="34" rx="10" fill="#fff"/>
+  <text x="442" y="108" font-family="Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#140b18">Inicio</text>
+  <text x="530" y="108" font-family="Arial, sans-serif" font-size="11" fill="#cdb8d8">Datos</text>
+  <text x="590" y="108" font-family="Arial, sans-serif" font-size="11" fill="#cdb8d8">Evidencias</text>
+  <text x="680" y="108" font-family="Arial, sans-serif" font-size="11" fill="#cdb8d8">Indicadores</text>
+  <text x="770" y="108" font-family="Arial, sans-serif" font-size="11" fill="#cdb8d8">Gestión</text>
+  <text x="840" y="108" font-family="Arial, sans-serif" font-size="11" fill="#cdb8d8">Recursos</text>
+
+  <text x="110" y="190" font-family="Arial, sans-serif" font-size="13" letter-spacing="3" font-weight="800" fill="#ff5fbe">PANEL ADMINISTRATIVO</text>
+  <text x="110" y="235" font-family="Arial, sans-serif" font-size="42" font-weight="800" fill="#fff">Gestión y seguimiento académico</text>
+  <text x="110" y="270" font-family="Arial, sans-serif" font-size="16" fill="#cdb8d8">Indicadores, evidencias y avances centralizados en una sola plataforma.</text>
+
+  <g transform="translate(110 315)">
+    <rect width="300" height="170" rx="22" fill="#15151c" stroke="#8b2cff" stroke-opacity="0.35"/>
+    <text x="22" y="36" font-family="Arial, sans-serif" font-size="12" fill="#cdb8d8">Cumplimiento general</text>
+    <text x="22" y="82" font-family="Arial, sans-serif" font-size="38" font-weight="800" fill="#fff">78%</text>
+    <rect x="22" y="110" width="250" height="12" rx="6" fill="#2a2630"/>
+    <rect x="22" y="110" width="195" height="12" rx="6" fill="url(#purple)"/>
+    <text x="22" y="148" font-family="Arial, sans-serif" font-size="10" fill="#56e6b0">+6% respecto al periodo anterior</text>
+  </g>
+
+  <g transform="translate(430 315)">
+    <rect width="300" height="170" rx="22" fill="#15151c" stroke="#8b2cff" stroke-opacity="0.35"/>
+    <text x="22" y="36" font-family="Arial, sans-serif" font-size="12" fill="#cdb8d8">Evidencias registradas</text>
+    <text x="22" y="82" font-family="Arial, sans-serif" font-size="38" font-weight="800" fill="#fff">48</text>
+    <circle cx="238" cy="82" r="45" fill="none" stroke="#2a2630" stroke-width="12"/>
+    <circle cx="238" cy="82" r="45" fill="none" stroke="#ff2c9c" stroke-width="12" stroke-linecap="round" stroke-dasharray="210 283" transform="rotate(-90 238 82)"/>
+    <text x="238" y="87" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#fff">86%</text>
+    <text x="22" y="148" font-family="Arial, sans-serif" font-size="10" fill="#cdb8d8">Validadas por el sistema</text>
+  </g>
+
+  <g transform="translate(750 315)">
+    <rect width="300" height="170" rx="22" fill="#15151c" stroke="#8b2cff" stroke-opacity="0.35"/>
+    <text x="22" y="36" font-family="Arial, sans-serif" font-size="12" fill="#cdb8d8">Avance por componente</text>
+    <rect x="22" y="60" width="255" height="10" rx="5" fill="#2a2630"/>
+    <rect x="22" y="60" width="216" height="10" rx="5" fill="#8b2cff"/>
+    <rect x="22" y="92" width="255" height="10" rx="5" fill="#2a2630"/>
+    <rect x="22" y="92" width="198" height="10" rx="5" fill="#a542ff"/>
+    <rect x="22" y="124" width="255" height="10" rx="5" fill="#2a2630"/>
+    <rect x="22" y="124" width="187" height="10" rx="5" fill="#ff2c9c"/>
+    <text x="22" y="154" font-family="Arial, sans-serif" font-size="10" fill="#cdb8d8">C1 · C2 · C3</text>
+  </g>
+
+  <text x="110" y="565" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#fff">Registro</text>
+  <text x="235" y="565" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#fff">Evidencias</text>
+  <text x="380" y="565" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#fff">Indicadores</text>
+  <text x="540" y="565" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#fff">Gestión</text>
+  <text x="690" y="565" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#fff">Seguimiento</text>
+  <line x1="110" y1="585" x2="1050" y2="585" stroke="#2c2830"/>
+  <text x="110" y="614" font-family="Arial, sans-serif" font-size="10" fill="#8e8294">UT-GEST · Sistema demostrativo de gestión y seguimiento académico</text>
+</svg>
